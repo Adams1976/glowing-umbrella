@@ -3,10 +3,12 @@
     padding: 0;
 }
 
-nav {
-    background-color: rgb(63, 59, 59);
+/* вся верхняя навигация */
+header {
+    background-color: #1f2937;
 
 }
+
 .info {
     display: flex;
     justify-content: space-around;
@@ -25,6 +27,48 @@ nav {
     color: aliceblue;
 }
 .nav-info a:hover {
-    color: black;
+    color:#3882f6;
+    text-decoration: underline;
+    cursor: pointer;
+  
 }
 
+
+/* шапка сайта  */
+main {
+    background-color: #1f2937;
+    padding-top: 4em
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.main-content {
+    color: aliceblue;
+}
+
+button {
+    margin-top: 10px;
+  
+    border: 10px solid #3882f6;
+    border-radius:  0.5em;
+    color: rgb(255, 255, 255);
+    background-color: #3882f6;
+}
+
+button:hover {
+    text-decoration:underline;
+    color: #000000;
+    cursor: pointer;
+
+}
+
+.main-images {
+    margin-bottom: 60px;
+}
+
+
+.main-images>img {
+
+    border: 5px solid rgb(219, 214, 214);
+}
